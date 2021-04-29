@@ -1,3 +1,0 @@
-# acheung-test-repo
-
-testing
