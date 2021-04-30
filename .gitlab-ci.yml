@@ -7,5 +7,7 @@ strix-maven:
   extends:
     - .actions.maven
 
+  image: maven:3.8-openjdk-17-slim
+
   variables:
     ACTION_DIRECTORY: ./strix-maven/
