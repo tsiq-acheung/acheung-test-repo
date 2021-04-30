@@ -1,0 +1,11 @@
+include:
+  - project: mirrors/tsiq-brian-sandbox
+    ref: brian/BUILD-4642
+    file: /actions/maven/index.yml
+
+strix-maven:
+  extends:
+    - .actions.maven
+
+  variables:
+    ACTION_DIRECTORY: ./strix-maven/
